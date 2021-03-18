@@ -31,7 +31,7 @@ jobs:
          version: 14
       
       - name: build making
-        run: npm bulid 
+        run: npm run-script build
         
       - name: install surge 
         run: npm install -g surge
